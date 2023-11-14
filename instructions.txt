@@ -1,0 +1,5 @@
+Python, OpenTelemetry packages needed
+
+Run Server with OpenTelemetry: opentelemetry-instrument flask --app <app-name>.py run
+Run Client: python <client-name>.py
+Run Jaeger + OTEL Collector + Prometheus + Grafana (not used) in telemetry folder: docker compose up
